@@ -36,21 +36,17 @@ git clone https://github.com/yourusername/movie-recommender.git
 cd movie-recommender
 ```
 2. Install Dependencies
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 Requirements include:
-
+```
 streamlit
-
 requests
-
 pickle
-
 pandas
-
 scikit-learn (for similarity matrix creation)
+```
 
 3. Data Files
 Ensure the following files are present:
@@ -62,38 +58,16 @@ similarity.pkl — precomputed similarity scores between movies
 (You can generate these from your dataset or use the pre-trained files if provided.)
 
 4. Run the App
-bash
-Copy
-Edit
+```
 streamlit run app.py
+```
 🌐 API Integration
-This app uses the TMDB API for movie posters and trailers.
-You need a TMDB API key to run it:
-
 Create an account at TMDB.
-
 Go to Settings > API and generate an API key.
-
-Replace the API key inside app.py:
-
-python
-Copy
-Edit
+```
 api_key = "YOUR_TMDB_API_KEY"
+```
 🎨 UI Preview
-The app has a Netflix-inspired theme with:
-
-Full-page background (netflix.jpg)
-
-Hover animations on posters
-
-Styled headers and buttons
-
-(Add screenshots here for better presentation)
-
-markdown
-Copy
-Edit
 ![App Screenshot](Images/screenshot1.png)
 ![App Screenshot](Images/screenshot2.png)
 ✨ Future Improvements
