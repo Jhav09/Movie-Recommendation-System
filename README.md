@@ -50,13 +50,11 @@ scikit-learn (for similarity matrix creation)
 
 3. Data Files
 Ensure the following files are present:
-
+```
 movie_list.pkl — contains movie metadata (title, TMDB ID, etc.)
 
 similarity.pkl — precomputed similarity scores between movies
-
-(You can generate these from your dataset or use the pre-trained files if provided.)
-
+```
 4. Run the App
 ```
 streamlit run app.py
@@ -68,8 +66,8 @@ Go to Settings > API and generate an API key.
 api_key = "YOUR_TMDB_API_KEY"
 ```
 🎨 UI Preview
-![App Screenshot](Images/screenshot1.png)
-![App Screenshot](Images/screenshot2.png)
+![App Screenshot](/S1.png)
+![App Screenshot](/S2.png)
 ✨ Future Improvements
 Add user ratings & collaborative filtering.
 
