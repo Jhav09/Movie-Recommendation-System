@@ -15,18 +15,14 @@ The app integrates with the **TMDB API** to fetch movie posters, trailers, and d
 ---
 
 ## 📂 Project Structure
+```
 .
 ├── app.py # Main Streamlit application
 ├── movie_list.pkl # Pickled movie metadata (titles + IDs)
 ├── similarity.pkl # Pickled similarity matrix
 ├── netflix.jpg # Background image
 └── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
+```
 
 ## 🛠️ Installation & Setup
 
